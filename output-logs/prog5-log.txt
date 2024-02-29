@@ -1,0 +1,148 @@
+Scanner token: read
+
+Popped non-terminal: program
+Production rule: program -> stmt_list $$
+
+Popped non-terminal: stmt_list
+Production rule: stmt_list -> stmt stmt_list | ε
+
+Popped non-terminal: stmt
+Production rule: stmt -> read id
+
+Token matched and popped from the stack: read
+Next scanner token: id
+
+Token matched and popped from the stack: id
+Next scanner token: read
+
+Popped non-terminal: stmt_list
+Production rule: stmt_list -> stmt stmt_list | ε
+
+Popped non-terminal: stmt
+Production rule: stmt -> read id
+
+Token matched and popped from the stack: read
+Next scanner token: id
+
+Token matched and popped from the stack: id
+Next scanner token: id
+
+Popped non-terminal: stmt_list
+Production rule: stmt_list -> stmt stmt_list | ε
+
+Popped non-terminal: stmt
+Production rule: stmt -> id := expr
+
+Token matched and popped from the stack: id
+Next scanner token: :=
+
+Token matched and popped from the stack: :=
+Next scanner token: id
+
+Popped non-terminal: expr
+Production rule: expr -> term term_tail
+
+Popped non-terminal: term
+Production rule: term -> factor factor_tail
+
+Popped non-terminal: factor
+Production rule: factor -> id
+
+Token matched and popped from the stack: id
+Next scanner token: *
+
+Popped non-terminal: factor_tail
+Production rule: factor_tail -> mult_op factor factor_tail | ε
+
+Popped non-terminal: mult_op
+Production rule: mult_op -> *
+
+Token matched and popped from the stack: *
+Next scanner token: id
+
+Popped non-terminal: factor
+Production rule: factor -> id
+
+Token matched and popped from the stack: id
+Next scanner token: id
+
+Popped non-terminal: factor_tail
+
+Popped non-terminal: term_tail
+
+Popped non-terminal: stmt_list
+Production rule: stmt_list -> stmt stmt_list | ε
+
+Popped non-terminal: stmt
+Production rule: stmt -> id := expr
+
+Token matched and popped from the stack: id
+Next scanner token: :=
+
+Token matched and popped from the stack: :=
+Next scanner token: number
+
+Popped non-terminal: expr
+Production rule: expr -> term term_tail
+
+Popped non-terminal: term
+Production rule: term -> factor factor_tail
+
+Popped non-terminal: factor
+Production rule: factor -> number
+
+Token matched and popped from the stack: number
+Next scanner token: *
+
+Popped non-terminal: factor_tail
+Production rule: factor_tail -> mult_op factor factor_tail | ε
+
+Popped non-terminal: mult_op
+Production rule: mult_op -> *
+
+Token matched and popped from the stack: *
+Next scanner token: (
+
+Popped non-terminal: factor
+Production rule: factor -> ( expr )
+
+Token matched and popped from the stack: (
+Next scanner token: id
+
+Popped non-terminal: expr
+Production rule: expr -> term term_tail
+
+Popped non-terminal: term
+Production rule: term -> factor factor_tail
+
+Popped non-terminal: factor
+Production rule: factor -> id
+
+Token matched and popped from the stack: id
+Next scanner token: +
+
+Popped non-terminal: factor_tail
+
+Popped non-terminal: term_tail
+Production rule: term_tail -> add_op term term_tail | ε
+
+Popped non-terminal: add_op
+Production rule: add_op -> +
+
+Token matched and popped from the stack: +
+Next scanner token: id
+
+Popped non-terminal: term
+Production rule: term -> factor factor_tail
+
+Popped non-terminal: factor
+Production rule: factor -> id
+
+Token matched and popped from the stack: id
+Next scanner token: write
+
+Popped non-terminal: factor_tail
+
+Popped non-terminal: term_tail
+
+Syntax error at line number: 5

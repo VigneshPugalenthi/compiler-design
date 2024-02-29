@@ -1,0 +1,4 @@
+Scanner token: *
+
+Popped non-terminal: program
+Syntax error at line number 1

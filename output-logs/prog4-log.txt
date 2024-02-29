@@ -1,0 +1,27 @@
+Scanner token: read
+
+Popped non-terminal: program
+Production rule: program -> stmt_list $$
+
+Popped non-terminal: stmt_list
+Production rule: stmt_list -> stmt stmt_list | ε
+
+Popped non-terminal: stmt
+Production rule: stmt -> read id
+
+Token matched and popped from the stack: read
+Next scanner token: id
+
+Token matched and popped from the stack: id
+Next scanner token: id
+
+Popped non-terminal: stmt_list
+Production rule: stmt_list -> stmt stmt_list | ε
+
+Popped non-terminal: stmt
+Production rule: stmt -> id := expr
+
+Token matched and popped from the stack: id
+Next scanner token: id
+
+Syntax error at line number: 2

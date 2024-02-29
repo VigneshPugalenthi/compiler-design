@@ -1,0 +1,7 @@
+Scanner token: $$
+
+Popped non-terminal: program
+Production rule: program -> stmt_list $$
+
+Popped non-terminal: stmt_list
+Parsing successful: No lexical or syntax error
