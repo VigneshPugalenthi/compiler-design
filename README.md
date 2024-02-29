@@ -43,29 +43,29 @@ mult_op -> * | /
 - I believe prog2 given in the assignment should return syntax error, since all tokens are valid, it can't be lexically incorrect.
 
 ## Testing
-:point_right: Input file: `prog1`
-![](/output-screenshots/prog1.gif)
+- Input file: `prog1` Output:👇
+  - ![](/output-screenshots/prog1.gif)
 
-:point_right: Input file: `prog2`
-![](/output-screenshots/prog2.png)
+- Input file: `prog2` Output:👇
+  - <img src="/output-screenshots/prog2.png" height="200" width="500">
 
-:point_right: Input file: `prog3`
-![](/output-screenshots/prog3.png)
+- Input file: `prog3` Output:👇
+  - <img src="/output-screenshots/prog3.png" height="200" width="500">
 
-:point_right: Input file: `prog4`
-![](/output-screenshots/prog4.gif)
+- Input file: `prog4` Output:👇
+  - ![](/output-screenshots/prog4.gif)
 
-:point_right: Input file: `prog5`
-![](/output-screenshots/prog5.gif)
+- Input file: `prog5` Output:👇
+  - ![](/output-screenshots/prog5.gif)
 
-:point_right: Input file: `prog6`
-![](/output-screenshots/prog6.gif)
+- Input file: `prog6` Output:👇
+  - ![](/output-screenshots/prog6.gif)
 
-:point_right: Input file: `prog7`
-![](/output-screenshots/prog7.png)
+- Input file: `prog7` Output:👇
+  - <img src="/output-screenshots/prog7.png" height="200" width="500">
 
-:point_right: Input file: `prog8`
-![](/output-screenshots/prog8.gif)
+- Input file: `prog8` Output:👇
+  - ![](/output-screenshots/prog8.gif)
 
 
 [:file_folder: GitHub repository](https://github.com/VigneshPugalenthi/compiler-design)
